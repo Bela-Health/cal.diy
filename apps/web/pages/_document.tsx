@@ -69,8 +69,8 @@ class MyDocument extends Document<Props> {
           <link rel="icon" type="image/png" sizes="32x32" href="/api/logo?type=favicon-32" />
           <link rel="icon" type="image/png" sizes="16x16" href="/api/logo?type=favicon-16" />
           <link rel="manifest" href="/site.webmanifest" />
-          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000" />
-          <meta name="msapplication-TileColor" content="#ff0000" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0D835C" />
+          <meta name="msapplication-TileColor" content="#0D835C" />
           <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F9FAFC" />
           <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1F1F1F" />
           {!IS_PRODUCTION && process.env.VERCEL_ENV === "preview" && (
